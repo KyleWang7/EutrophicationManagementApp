@@ -7,18 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35588BD228EF042500181D2D /* AppMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35588BD028EF042400181D2D /* AppMapView.swift */; };
+		35588BD328EF042500181D2D /* DamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35588BD128EF042500181D2D /* DamView.swift */; };
 		3590818A28A7554800034B60 /* IGEM_SoftwareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3590818928A7554800034B60 /* IGEM_SoftwareApp.swift */; };
 		3590818C28A7554800034B60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3590818B28A7554800034B60 /* ContentView.swift */; };
 		3590818E28A7555100034B60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3590818D28A7555100034B60 /* Assets.xcassets */; };
 		3590819128A7555100034B60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3590819028A7555100034B60 /* Preview Assets.xcassets */; };
+		3599292328B7248E0076D396 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3599292228B7248E0076D396 /* InputView.swift */; };
+		3599292528B7252A0076D396 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3599292428B7252A0076D396 /* HomeView.swift */; };
+		35B0A7D828BB06B80008FC3F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 35B0A7D728BB06B80008FC3F /* FirebaseAuth */; };
+		35B0A7DA28BB08200008FC3F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B0A7D928BB08200008FC3F /* LoginView.swift */; };
+		35B0A7DC28BB19500008FC3F /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B0A7DB28BB19500008FC3F /* SignUpView.swift */; };
+		35D3CC0928EEFB06005C9988 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35D3CC0828EEFB05005C9988 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35588BD028EF042400181D2D /* AppMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppMapView.swift; sourceTree = "<group>"; };
+		35588BD128EF042500181D2D /* DamView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DamView.swift; sourceTree = "<group>"; };
 		3590818628A7554800034B60 /* IGEM Software.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IGEM Software.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3590818928A7554800034B60 /* IGEM_SoftwareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGEM_SoftwareApp.swift; sourceTree = "<group>"; };
 		3590818B28A7554800034B60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3590818D28A7555100034B60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3590819028A7555100034B60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3599292228B7248E0076D396 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		3599292428B7252A0076D396 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		35B0A7D928BB08200008FC3F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		35B0A7DB28BB19500008FC3F /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		35D3CC0828EEFB05005C9988 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35B0A7D828BB06B80008FC3F /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,6 +51,7 @@
 		3590817D28A7554800034B60 = {
 			isa = PBXGroup;
 			children = (
+				3599292428B7252A0076D396 /* HomeView.swift */,
 				3590818828A7554800034B60 /* IGEM Software */,
 				3590818728A7554800034B60 /* Products */,
 			);
@@ -51,10 +68,16 @@
 		3590818828A7554800034B60 /* IGEM Software */ = {
 			isa = PBXGroup;
 			children = (
+				35D3CC0828EEFB05005C9988 /* GoogleService-Info.plist */,
 				3590818928A7554800034B60 /* IGEM_SoftwareApp.swift */,
 				3590818B28A7554800034B60 /* ContentView.swift */,
+				3599292228B7248E0076D396 /* InputView.swift */,
+				35588BD028EF042400181D2D /* AppMapView.swift */,
+				35588BD128EF042500181D2D /* DamView.swift */,
 				3590818D28A7555100034B60 /* Assets.xcassets */,
 				3590818F28A7555100034B60 /* Preview Content */,
+				35B0A7D928BB08200008FC3F /* LoginView.swift */,
+				35B0A7DB28BB19500008FC3F /* SignUpView.swift */,
 			);
 			path = "IGEM Software";
 			sourceTree = "<group>";
@@ -83,6 +106,9 @@
 			dependencies = (
 			);
 			name = "IGEM Software";
+			packageProductDependencies = (
+				35B0A7D728BB06B80008FC3F /* FirebaseAuth */,
+			);
 			productName = "IGEM Software";
 			productReference = 3590818628A7554800034B60 /* IGEM Software.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +137,9 @@
 				Base,
 			);
 			mainGroup = 3590817D28A7554800034B60;
+			packageReferences = (
+				35B0A7D628BB06B70008FC3F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 3590818728A7554800034B60 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +156,7 @@
 			files = (
 				3590819128A7555100034B60 /* Preview Assets.xcassets in Resources */,
 				3590818E28A7555100034B60 /* Assets.xcassets in Resources */,
+				35D3CC0928EEFB06005C9988 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +167,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3599292328B7248E0076D396 /* InputView.swift in Sources */,
+				3599292528B7252A0076D396 /* HomeView.swift in Sources */,
 				3590818C28A7554800034B60 /* ContentView.swift in Sources */,
+				35B0A7DA28BB08200008FC3F /* LoginView.swift in Sources */,
+				35588BD228EF042500181D2D /* AppMapView.swift in Sources */,
+				35588BD328EF042500181D2D /* DamView.swift in Sources */,
+				35B0A7DC28BB19500008FC3F /* SignUpView.swift in Sources */,
 				3590818A28A7554800034B60 /* IGEM_SoftwareApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +305,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"IGEM Software/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Eutrophication Management App";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +334,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"IGEM Software/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Eutrophication Management App";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -337,6 +375,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		35B0A7D628BB06B70008FC3F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		35B0A7D728BB06B80008FC3F /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 35B0A7D628BB06B70008FC3F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3590817E28A7554800034B60 /* Project object */;
 }

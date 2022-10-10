@@ -6,12 +6,24 @@
 //
 
 import SwiftUI
+import Firebase
+import FirebaseAuth
 
 @main
 struct IGEM_SoftwareApp: App {
+    
+    init() {
+        FirebaseApp.configure()
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if let user = Auth.auth().currentUser {
+                ContentView()
+            } else {
+                LoginView()
+
+            }
         }
     }
 }
